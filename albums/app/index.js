@@ -1,10 +1,14 @@
-import { Text, AppRegistry } from 'react-native';
+import { View, Text, AppRegistry } from 'react-native';
 import React, { Component } from 'react';
+import Header from './components/header';
 
 export default class App extends Component {
   render() {
     return (
-      <Text>Hello world.</Text>
+      <View>
+        <Header />
+        <Text>Hello world.</Text>
+      </View>
     );
   }
 }

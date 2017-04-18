@@ -1,4 +1,4 @@
-import { View, Text, AppRegistry } from 'react-native';
+import { View, AppRegistry } from 'react-native';
 import React, { Component } from 'react';
 
 import Header from './components/Header';
@@ -7,10 +7,9 @@ import AlbumList from './components/AlbumList';
 export default class App extends Component {
   render() {
     return (
-      <View>
+      <View style={{ flex: 1 }}>
         <Header headerText={'Albums'} />
         <AlbumList />
-        <Text>Hello world.</Text>
       </View>
     );
   }

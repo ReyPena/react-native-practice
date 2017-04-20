@@ -1,4 +1,4 @@
-import { View, AppRegistry } from 'react-native';
+import { View } from 'react-native';
 import React, { Component } from 'react';
 
 import Header from './components/Header';
@@ -14,5 +14,3 @@ export default class App extends Component {
     );
   }
 }
-
-AppRegistry.registerComponent('albums', () => App);

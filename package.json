@@ -1,0 +1,23 @@
+{
+  "name": "react-native-practice",
+  "version": "1.0.0",
+  "description": "---",
+  "main": "index.js",
+  "scripts": {
+    "init": "./node_modules/.bin/react-native init",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ReyPena/react-native-practice.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ReyPena/react-native-practice/issues"
+  },
+  "homepage": "https://github.com/ReyPena/react-native-practice#readme",
+  "dependencies": {
+    "react-native-cli": "^2.0.1"
+  }
+}

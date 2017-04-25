@@ -8,14 +8,22 @@ import { Header } from './components/common';
 import LibraryList from './components/LibraryList';
 
 const App = () => {
+  const { mainViewStyle } = styles;
+
   return (
     <Provider store={createStore(reducers)}>
-      <View style={{ flex: 1 }}>
+      <View style={mainViewStyle}>
         <Header headerText="Tech Stack" />
         <LibraryList />
       </View>
     </Provider>
   );
+};
+
+const styles = {
+  mainViewStyle: {
+    flex: 1
+  }
 };
 
 export default App;
